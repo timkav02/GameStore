@@ -1,0 +1,208 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+2 info using npm@1.4.21
+3 info using node@v8.11.2
+4 warn package.json gamestore@1.0.0 No repository field.
+5 warn package.json gamestore@1.0.0 No README data
+6 warn package.json gamestore@1.0.0 No license field.
+7 verbose readDependencies using package.json deps
+8 verbose install where, deps [ '/home/Timo/Python-Projects/PythonBlueprints/GameStore/gamestore',
+8 verbose install   [ 'bootstrap', 'font-awesome' ] ]
+9 info preinstall gamestore@1.0.0
+10 verbose readDependencies using package.json deps
+11 verbose cache add [ 'bootstrap@^3.3.7', null ]
+12 verbose cache add name=undefined spec="bootstrap@^3.3.7" args=["bootstrap@^3.3.7",null]
+13 verbose parsed url Url {
+13 verbose parsed url   protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'bootstrap@%5E3.3.7',
+13 verbose parsed url   path: 'bootstrap@%5E3.3.7',
+13 verbose parsed url   href: 'bootstrap@%5E3.3.7' }
+14 verbose cache add [ 'font-awesome@^4.7.0', null ]
+15 verbose cache add name=undefined spec="font-awesome@^4.7.0" args=["font-awesome@^4.7.0",null]
+16 verbose parsed url Url {
+16 verbose parsed url   protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: 'font-awesome@%5E4.7.0',
+16 verbose parsed url   path: 'font-awesome@%5E4.7.0',
+16 verbose parsed url   href: 'font-awesome@%5E4.7.0' }
+17 verbose cache add name="bootstrap" spec="^3.3.7" args=["bootstrap","^3.3.7"]
+18 verbose parsed url Url {
+18 verbose parsed url   protocol: null,
+18 verbose parsed url   slashes: null,
+18 verbose parsed url   auth: null,
+18 verbose parsed url   host: null,
+18 verbose parsed url   port: null,
+18 verbose parsed url   hostname: null,
+18 verbose parsed url   hash: null,
+18 verbose parsed url   search: null,
+18 verbose parsed url   query: null,
+18 verbose parsed url   pathname: '%5E3.3.7',
+18 verbose parsed url   path: '%5E3.3.7',
+18 verbose parsed url   href: '%5E3.3.7' }
+19 verbose addNamed [ 'bootstrap', '^3.3.7' ]
+20 verbose addNamed [ null, '>=3.3.7 <4.0.0' ]
+21 verbose cache add name="font-awesome" spec="^4.7.0" args=["font-awesome","^4.7.0"]
+22 verbose parsed url Url {
+22 verbose parsed url   protocol: null,
+22 verbose parsed url   slashes: null,
+22 verbose parsed url   auth: null,
+22 verbose parsed url   host: null,
+22 verbose parsed url   port: null,
+22 verbose parsed url   hostname: null,
+22 verbose parsed url   hash: null,
+22 verbose parsed url   search: null,
+22 verbose parsed url   query: null,
+22 verbose parsed url   pathname: '%5E4.7.0',
+22 verbose parsed url   path: '%5E4.7.0',
+22 verbose parsed url   href: '%5E4.7.0' }
+23 verbose addNamed [ 'font-awesome', '^4.7.0' ]
+24 verbose addNamed [ null, '>=4.7.0 <5.0.0' ]
+25 silly lockFile 131890fc-bootstrap-3-3-7 bootstrap@^3.3.7
+26 verbose lock bootstrap@^3.3.7 /root/.npm/131890fc-bootstrap-3-3-7.lock
+27 silly lockFile 03a65bed-font-awesome-4-7-0 font-awesome@^4.7.0
+28 verbose lock font-awesome@^4.7.0 /root/.npm/03a65bed-font-awesome-4-7-0.lock
+29 silly addNameRange { name: 'bootstrap', range: '>=3.3.7 <4.0.0', hasData: false }
+30 silly addNameRange { name: 'font-awesome', range: '>=4.7.0 <5.0.0', hasData: false }
+31 verbose request where is /bootstrap
+32 verbose request registry https://registry.npmjs.org/
+33 verbose request id 8e20e0c4f6cb7f11
+34 verbose url raw /bootstrap
+35 verbose url resolving [ 'https://registry.npmjs.org/', './bootstrap' ]
+36 verbose url resolved https://registry.npmjs.org/bootstrap
+37 verbose request where is https://registry.npmjs.org/bootstrap
+38 info trying registry request attempt 1 at 11:59:13 PM
+39 http GET https://registry.npmjs.org/bootstrap
+40 verbose request where is /font-awesome
+41 verbose request registry https://registry.npmjs.org/
+42 verbose url raw /font-awesome
+43 verbose url resolving [ 'https://registry.npmjs.org/', './font-awesome' ]
+44 verbose url resolved https://registry.npmjs.org/font-awesome
+45 verbose request where is https://registry.npmjs.org/font-awesome
+46 info trying registry request attempt 1 at 11:59:13 PM
+47 http GET https://registry.npmjs.org/font-awesome
+48 http 200 https://registry.npmjs.org/font-awesome
+49 silly registry.get cb [ 200,
+49 silly registry.get   { date: 'Sat, 11 Aug 2018 20:59:16 GMT',
+49 silly registry.get     'content-type': 'application/json; charset=UTF-8',
+49 silly registry.get     'transfer-encoding': 'chunked',
+49 silly registry.get     connection: 'close',
+49 silly registry.get     'set-cookie':
+49 silly registry.get      [ '__cfduid=de79dc0ea41ecb3613d3f3d890e1357251534021156; expires=Sun, 11-Aug-19 20:59:16 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+49 silly registry.get     'cache-control': 'max-age=300',
+49 silly registry.get     'cf-cache-status': 'HIT',
+49 silly registry.get     'cf-ray': '448da0014b752c6c-AMS',
+49 silly registry.get     etag: 'W/"6f4824fe5d7d210f9bfc6752f2128591"',
+49 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+49 silly registry.get     'last-modified': 'Sun, 27 May 2018 01:03:18 GMT',
+49 silly registry.get     vary: 'accept-encoding, accept',
+49 silly registry.get     server: 'cloudflare',
+49 silly registry.get     'content-encoding': 'gzip' } ]
+50 silly addNameRange number 2 { name: 'font-awesome', range: '>=4.7.0 <5.0.0', hasData: true }
+51 silly addNameRange versions [ 'font-awesome',
+51 silly addNameRange   [ '3.2.1',
+51 silly addNameRange     '4.0.3',
+51 silly addNameRange     '4.1.0',
+51 silly addNameRange     '4.2.0',
+51 silly addNameRange     '4.3.0',
+51 silly addNameRange     '4.4.0',
+51 silly addNameRange     '4.5.0',
+51 silly addNameRange     '4.6.1',
+51 silly addNameRange     '4.6.3',
+51 silly addNameRange     '4.7.0' ] ]
+52 verbose addNamed [ 'font-awesome', '4.7.0' ]
+53 verbose addNamed [ '4.7.0', '4.7.0' ]
+54 silly lockFile 434fd272-font-awesome-4-7-0 font-awesome@4.7.0
+55 verbose lock font-awesome@4.7.0 /root/.npm/434fd272-font-awesome-4-7-0.lock
+56 silly lockFile 150f7cc9-t-awesome-font-awesome-4-7-0-tgz https://registry.npmjs.org/font-awesome/-/font-awesome-4.7.0.tgz
+57 verbose lock https://registry.npmjs.org/font-awesome/-/font-awesome-4.7.0.tgz /root/.npm/150f7cc9-t-awesome-font-awesome-4-7-0-tgz.lock
+58 verbose addRemoteTarball [ 'https://registry.npmjs.org/font-awesome/-/font-awesome-4.7.0.tgz',
+58 verbose addRemoteTarball   '8fa8cf0411a1a31afd07b06d2902bb9fc815a133' ]
+59 info retry fetch attempt 1 at 11:59:16 PM
+60 verbose fetch to= /tmp/npm-8542-Ts2NP_c7/registry.npmjs.org/font-awesome/-/font-awesome-4.7.0.tgz
+61 http GET https://registry.npmjs.org/font-awesome/-/font-awesome-4.7.0.tgz
+62 http 200 https://registry.npmjs.org/bootstrap
+63 silly registry.get cb [ 200,
+63 silly registry.get   { date: 'Sat, 11 Aug 2018 20:59:16 GMT',
+63 silly registry.get     'content-type': 'application/json; charset=UTF-8',
+63 silly registry.get     'transfer-encoding': 'chunked',
+63 silly registry.get     connection: 'close',
+63 silly registry.get     'set-cookie':
+63 silly registry.get      [ '__cfduid=dd1d7390cc92f8b316107accd1fc75bc21534021156; expires=Sun, 11-Aug-19 20:59:16 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+63 silly registry.get     'cache-control': 'max-age=300',
+63 silly registry.get     'cf-cache-status': 'HIT',
+63 silly registry.get     'cf-ray': '448da0013d69bdf2-AMS',
+63 silly registry.get     etag: 'W/"fc59b126b6729482cf41b9097bc27744"',
+63 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+63 silly registry.get     'last-modified': 'Fri, 03 Aug 2018 00:34:12 GMT',
+63 silly registry.get     vary: 'accept-encoding, accept',
+63 silly registry.get     server: 'cloudflare',
+63 silly registry.get     'content-encoding': 'gzip' } ]
+64 silly addNameRange number 2 { name: 'bootstrap', range: '>=3.3.7 <4.0.0', hasData: true }
+65 silly addNameRange versions [ 'bootstrap',
+65 silly addNameRange   [ '0.0.1',
+65 silly addNameRange     '0.0.2',
+65 silly addNameRange     '3.1.1',
+65 silly addNameRange     '3.2.0',
+65 silly addNameRange     '3.3.0',
+65 silly addNameRange     '3.3.1',
+65 silly addNameRange     '3.3.2',
+65 silly addNameRange     '3.3.4',
+65 silly addNameRange     '3.3.5',
+65 silly addNameRange     '3.3.6',
+65 silly addNameRange     '4.0.0-alpha.2',
+65 silly addNameRange     '3.3.7',
+65 silly addNameRange     '4.0.0-alpha.3',
+65 silly addNameRange     '4.0.0-alpha.4',
+65 silly addNameRange     '4.0.0-alpha.5',
+65 silly addNameRange     '4.0.0-alpha.6',
+65 silly addNameRange     '4.0.0-beta',
+65 silly addNameRange     '4.0.0-beta.2',
+65 silly addNameRange     '4.0.0-beta.3',
+65 silly addNameRange     '4.0.0',
+65 silly addNameRange     '4.1.0',
+65 silly addNameRange     '4.1.1',
+65 silly addNameRange     '4.1.2',
+65 silly addNameRange     '4.1.3' ] ]
+66 verbose addNamed [ 'bootstrap', '3.3.7' ]
+67 verbose addNamed [ '3.3.7', '3.3.7' ]
+68 silly lockFile 7976a4e0-bootstrap-3-3-7 bootstrap@3.3.7
+69 verbose lock bootstrap@3.3.7 /root/.npm/7976a4e0-bootstrap-3-3-7.lock
+70 silly lockFile c393c01f-rg-bootstrap-bootstrap-3-3-7-tgz https://registry.npmjs.org/bootstrap/-/bootstrap-3.3.7.tgz
+71 verbose lock https://registry.npmjs.org/bootstrap/-/bootstrap-3.3.7.tgz /root/.npm/c393c01f-rg-bootstrap-bootstrap-3-3-7-tgz.lock
+72 verbose addRemoteTarball [ 'https://registry.npmjs.org/bootstrap/-/bootstrap-3.3.7.tgz',
+72 verbose addRemoteTarball   '5a389394549f23330875a3b150656574f8a9eb71' ]
+73 info retry fetch attempt 1 at 11:59:16 PM
+74 verbose fetch to= /tmp/npm-8542-Ts2NP_c7/registry.npmjs.org/bootstrap/-/bootstrap-3.3.7.tgz
+75 http GET https://registry.npmjs.org/bootstrap/-/bootstrap-3.3.7.tgz
+76 http 200 https://registry.npmjs.org/bootstrap/-/bootstrap-3.3.7.tgz
+77 http 200 https://registry.npmjs.org/font-awesome/-/font-awesome-4.7.0.tgz
+78 error Error: write EIO
+78 error     at _errnoException (util.js:992:11)
+78 error     at WriteWrap.afterWrite [as oncomplete] (net.js:864:14)
+79 error If you need help, you may report this *entire* log,
+79 error including the npm and node versions, at:
+79 error     <http://github.com/npm/npm/issues>
+80 error System Linux 4.15.0-kali2-amd64
+81 error command "/usr/bin/node" "/usr/bin/npm" "install"
+82 error cwd /home/Timo/Python-Projects/PythonBlueprints/GameStore/gamestore
+83 error node -v v8.11.2
+84 error npm -v 1.4.21
+85 error syscall write
+86 error code EIO
+87 error errno EIO
+88 verbose exit [ 1, true ]
