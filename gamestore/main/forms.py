@@ -1,6 +1,8 @@
 from django import forms
 from django.contrib.auth.models import User
 from django.contrib.auth.forms import AuthenticationForm
+from django.forms import inlineformset_factory
+from .models import ShoppingCartItem, ShoppingCart
 
 def validate_unique_user(error_message, **criteria):
     existent_user = User.objects.filter(**criteria)
@@ -105,3 +107,4 @@ class SignupForm(forms.Form):
 
         return password1
 
+ShoppingCartFormSet = inlineformset_factory(ShoppingCart,ShoppingCartItem,fields=('quantity', 'price_per_unit'), extra=0, widgets={ 'quantity': forms.TextInput({ 'class': 'form-control quantity',}), 'price_per_unit': forms.HiddenInput() })
