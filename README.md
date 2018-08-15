@@ -1,4 +1,4 @@
 # GameStore
-A Django 2.0 online video games store with a cart functionality.. 
-  user and session management
-  shopping cart management
+<b>A Django 2.0 online video games store with a cart functionality.. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; User and Session Management<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Shoppingcart Management</b>
